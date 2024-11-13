@@ -15,8 +15,13 @@
     background-size: cover;
     
 }
-
-
+.nb{
+    color: rgb(0, 132, 255);
+}
+nav{
+    display: flex;
+    
+}
 nav ul{
       
     list-style: none;
@@ -27,6 +32,8 @@ nav ul li {
     margin: 10px;
 }
 nav ul li a{
+   
+    
     text-decoration: none;
     color: #ffffff;
 }
@@ -39,15 +46,16 @@ h1{
 .tampon{
     display: flex;
     margin: 10px;
-    align-items: center;
+    justify-content: center;
+   
     
 }
 .bande{
   
    
     opacity: 0.8;
-    border-top-color:5px yellow ;
-    background-color: black;
+    border-top:2px solid rgb(229, 164, 44) ;
+    background-color: rgb(9, 2, 2);
     height: 5%;
 }
 
@@ -65,11 +73,12 @@ select{
    
 }
 .button{
+    opacity: 1;
     border-radius: 5px;
-    
+    color: #fff;
     border: none;
     padding: 5px;
-    background-color: coral;
+    background-color: rgb(229, 164, 44);
   
 
 }
