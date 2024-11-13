@@ -45,14 +45,15 @@ h1{
 
 .tampon{
     display: flex;
-    margin: 10px;
     justify-content: center;
+    
    
     
 }
 .bande{
+    
   
-   
+
     opacity: 0.8;
     border-top:2px solid rgb(229, 164, 44) ;
     background-color: rgb(9, 2, 2);
