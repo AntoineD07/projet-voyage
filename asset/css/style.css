@@ -13,7 +13,7 @@
 .container1{   
     background-image: url("./img/Polynesie-1680x720.jpg");
     background-size: cover;
-    
+   
 }
 .nb{
     color: rgb(0, 132, 255);
@@ -23,7 +23,7 @@ nav{
     
 }
 nav ul{
-      
+      padding-top: 10PX;
     list-style: none;
 }
 nav ul li {
@@ -32,6 +32,8 @@ nav ul li {
     margin: 10px;
 }
 nav ul li a{
+    margin: 10px;
+   
    
     
     text-decoration: none;
@@ -47,13 +49,10 @@ h1{
     display: flex;
     justify-content: center;
     
-   
-    
 }
 .bande{
+ 
     
-  
-
     opacity: 0.8;
     border-top:2px solid rgb(229, 164, 44) ;
     background-color: rgb(9, 2, 2);
@@ -61,6 +60,7 @@ h1{
 }
 
 select{
+    
    
     border-radius: 5px;
     background-color: black;
@@ -74,6 +74,7 @@ select{
    
 }
 .button{
+    
     opacity: 1;
     border-radius: 5px;
     color: #fff;
@@ -101,7 +102,7 @@ select{
     margin-right:20% ;
 
   
-    padding: 5PX;
+    padding: 10px;
 }
 
 
@@ -156,7 +157,7 @@ h4{
     font-size: large;
     padding-top: 5%;
     padding-bottom: 3%;
-    color: rgb(0, 191, 255);
+    color: rgb(2, 157, 139);
 }
 .liste{
     list-style: none;
