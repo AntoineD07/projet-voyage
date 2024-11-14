@@ -7,24 +7,22 @@
     box-sizing: border-box;
 }
 
-
-
-
 .container1{   
     background-image: url("./img/Polynesie-1680x720.jpg");
     background-size: cover;
    
 }
-.nb{
-    color: rgb(0, 132, 255);
-}
+
 nav{
     display: flex;
     
 }
 nav ul{
-      padding-top: 10PX;
+    padding-top: 10PX;
     list-style: none;
+}
+.burger{
+    display: none;
 }
 nav ul li {
     
@@ -33,9 +31,6 @@ nav ul li {
 }
 nav ul li a{
     margin: 10px;
-   
-   
-    
     text-decoration: none;
     color: #ffffff;
 }
@@ -51,8 +46,6 @@ h1{
     
 }
 .bande{
- 
-    
     opacity: 0.8;
     border-top:2px solid rgb(229, 164, 44) ;
     background-color: rgb(9, 2, 2);
@@ -61,7 +54,6 @@ h1{
 
 select{
     
-   
     border-radius: 5px;
     background-color: black;
     margin: 10px;
@@ -74,7 +66,8 @@ select{
    
 }
 .button{
-    
+    margin: 10px;
+    float: right;
     opacity: 1;
     border-radius: 5px;
     color: #fff;
@@ -151,7 +144,9 @@ hr{
     margin-right:20% ;
   
 }
-
+.nb{
+    color: rgb(0, 132, 255);
+}
 
 h4{
     font-size: large;
@@ -171,4 +166,85 @@ footer p {
     padding: 20px;
     background-color: antiquewhite;
     text-align: center;
+}
+
+
+@media screen and (max-width:768px){
+    .container1{   
+        background-image: url("./img/Polynesie-1680x720.jpg");
+        background-size: cover;
+       
+    }
+    
+    nav{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+
+    .burger{
+        display: flex;
+        justify-content: center;
+        font-size:200%;
+    }
+    nav ul{
+
+        /*padding-top: 10PX;*/
+        list-style: none;
+    }
+    nav ul li {
+       
+        
+  
+        display: none;
+        /* margin: 10px;*/
+    }
+    nav ul li a{
+       /* margin: 10px;*/
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .bande{
+        display: flex;
+        flex-direction: column;
+        padding-left: 25%;
+        
+        
+       
+        opacity: 0.8;
+        border-top:2px solid rgb(229, 164, 44) ;
+        background-color: rgb(9, 2, 2);
+        height: 5%;
+    }
+
+    select{
+        display: flex;
+        width: 50%;
+     
+        border-radius: 5px;
+        background-color: black;
+        margin: 10px;
+        padding-left: 10px;
+        padding-right: 25px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: #ffffff;
+       
+       
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        
+        width: 50%;
+     
+        opacity: 1;
+        border-radius: 5px;
+        color: #fff;
+        border: none;
+        padding: 5px;
+        background-color: rgb(229, 164, 44);
+    }
+    
 }
